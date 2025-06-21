@@ -5,7 +5,7 @@
 A sophisticated multi-agent investment intelligence system that adapts from retail to institutional complexity, providing professional-grade financial analysis with live market data.
 
 ## 🚀 **Live Demo**
-- **Platform:** Run locally with `uv run adk web`
+- **Architecture:** [System Architecture Diagram](docs/architecture.svg)- **Architecture:** [System Architecture Diagram](docs/architecture.svg)- **Platform:** Run locally with `uv run adk web`
 - **Video Demo:** [To be added]
 
 ## 📊 **Project Overview**
