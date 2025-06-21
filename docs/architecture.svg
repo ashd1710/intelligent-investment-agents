@@ -1,0 +1,250 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e3c72">
+    Adaptive Trading Intelligence Platform - Multi-Agent Architecture
+  </text>
+  <text x="600" y="65" text-anchor="middle" font-size="14" fill="#666">
+    Google Cloud ADK Hackathon 2025 | Live Demo: adaptive-trading-platform-258209898347.us-central1.run.app/dev-ui/
+  </text>
+  
+  <!-- User Layer -->
+  <rect x="50" y="120" width="200" height="80" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="150" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#1976d2">USER INTERFACE</text>
+  <text x="150" y="160" text-anchor="middle" font-size="11" fill="#1976d2">Natural Language Queries</text>
+  <text x="150" y="175" text-anchor="middle" font-size="10" fill="#666">"Find tech stocks under $200"</text>
+  <text x="150" y="190" text-anchor="middle" font-size="10" fill="#666">"Analyze portfolio risk"</text>
+  
+  <!-- Arrow from User to Cloud Run -->
+  <path d="M 250 160 L 320 160" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="285" y="155" text-anchor="middle" font-size="10" fill="#666">HTTPS</text>
+  
+  <!-- Google Cloud Run Container -->
+  <rect x="340" y="100" width="520" height="580" rx="15" fill="#fff3e0" stroke="#ff9800" stroke-width="3"/>
+  <text x="600" y="125" text-anchor="middle" font-size="16" font-weight="bold" fill="#ff9800">
+    Google Cloud Run Container
+  </text>
+  <text x="600" y="145" text-anchor="middle" font-size="12" fill="#ff9800">
+    Docker Container | Auto-scaling | HTTPS Endpoint
+  </text>
+  
+  <!-- ADK Root Agent -->
+  <rect x="370" y="170" width="460" height="100" rx="10" fill="#e8f5e8" stroke="#4caf50" stroke-width="2"/>
+  <text x="600" y="195" text-anchor="middle" font-size="14" font-weight="bold" fill="#4caf50">
+    🎯 ADK Root Agent - Adaptive Trading Intelligence Platform
+  </text>
+  <text x="600" y="215" text-anchor="middle" font-size="11" fill="#4caf50">
+    Google Cloud Agent Development Kit (ADK)
+  </text>
+  <text x="600" y="235" text-anchor="middle" font-size="10" fill="#666">
+    Query Routing • Multi-Agent Orchestration • Result Coordination
+  </text>
+  <text x="600" y="250" text-anchor="middle" font-size="10" fill="#666">
+    Model: Gemini 1.5 Flash | Framework: Python + ADK
+  </text>
+  
+  <!-- Multi-Agent Orchestrator -->
+  <rect x="390" y="290" width="420" height="60" rx="8" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="600" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#9c27b0">
+    🔄 Multi-Agent Orchestrator
+  </text>
+  <text x="600" y="335" text-anchor="middle" font-size="10" fill="#666">
+    Query Analysis • Agent Selection • Workflow Coordination • Result Synthesis
+  </text>
+  
+  <!-- Arrows to agents -->
+  <path d="M 450 350 L 450 400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 550 350 L 550 400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 650 350 L 650 400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 750 350 L 750 400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Agent 1: Stock Screening -->
+  <rect x="370" y="400" width="160" height="120" rx="8" fill="#e1f5fe" stroke="#0288d1" stroke-width="2"/>
+  <text x="450" y="420" text-anchor="middle" font-size="11" font-weight="bold" fill="#0288d1">
+    📊 Stock Screening
+  </text>
+  <text x="450" y="435" text-anchor="middle" font-size="11" font-weight="bold" fill="#0288d1">
+    Agent
+  </text>
+  <text x="450" y="455" text-anchor="middle" font-size="9" fill="#666">
+    Natural Language → SQL
+  </text>
+  <text x="450" y="470" text-anchor="middle" font-size="9" fill="#666">
+    Price/PE/Dividend Filters
+  </text>
+  <text x="450" y="485" text-anchor="middle" font-size="9" fill="#666">
+    Sector Classification
+  </text>
+  <text x="450" y="500" text-anchor="middle" font-size="9" fill="#666">
+    Real-time Data
+  </text>
+  
+  <!-- Agent 2: Style & Theme -->
+  <rect x="540" y="400" width="160" height="120" rx="8" fill="#fce4ec" stroke="#c2185b" stroke-width="2"/>
+  <text x="620" y="420" text-anchor="middle" font-size="11" font-weight="bold" fill="#c2185b">
+    🎭 Style & Theme
+  </text>
+  <text x="620" y="435" text-anchor="middle" font-size="11" font-weight="bold" fill="#c2185b">
+    Agent
+  </text>
+  <text x="620" y="455" text-anchor="middle" font-size="9" fill="#666">
+    Growth/Value Analysis
+  </text>
+  <text x="620" y="470" text-anchor="middle" font-size="9" fill="#666">
+    Theme Classification
+  </text>
+  <text x="620" y="485" text-anchor="middle" font-size="9" fill="#666">
+    AI/EV/Fintech/Healthcare
+  </text>
+  <text x="620" y="500" text-anchor="middle" font-size="9" fill="#666">
+    Factor Attribution
+  </text>
+  
+  <!-- Agent 3: Portfolio Risk -->
+  <rect x="370" y="540" width="160" height="120" rx="8" fill="#fff8e1" stroke="#ffa000" stroke-width="2"/>
+  <text x="450" y="560" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffa000">
+    ⚖️ Portfolio Risk
+  </text>
+  <text x="450" y="575" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffa000">
+    Agent
+  </text>
+  <text x="450" y="595" text-anchor="middle" font-size="9" fill="#666">
+    Beta/Volatility Analysis
+  </text>
+  <text x="450" y="610" text-anchor="middle" font-size="9" fill="#666">
+    Correlation Matrix
+  </text>
+  <text x="450" y="625" text-anchor="middle" font-size="9" fill="#666">
+    Stress Testing
+  </text>
+  <text x="450" y="640" text-anchor="middle" font-size="9" fill="#666">
+    VaR Calculations
+  </text>
+  
+  <!-- Agent 4: Multi-Strategy -->
+  <rect x="540" y="540" width="160" height="120" rx="8" fill="#f1f8e9" stroke="#689f38" stroke-width="2"/>
+  <text x="620" y="560" text-anchor="middle" font-size="11" font-weight="bold" fill="#689f38">
+    🔄 Multi-Strategy
+  </text>
+  <text x="620" y="575" text-anchor="middle" font-size="11" font-weight="bold" fill="#689f38">
+    Agent
+  </text>
+  <text x="620" y="595" text-anchor="middle" font-size="9" fill="#666">
+    Cross-Portfolio Analysis
+  </text>
+  <text x="620" y="610" text-anchor="middle" font-size="9" fill="#666">
+    Manager Coordination
+  </text>
+  <text x="620" y="625" text-anchor="middle" font-size="9" fill="#666">
+    Complex Workflows
+  </text>
+  <text x="620" y="640" text-anchor="middle" font-size="9" fill="#666">
+    Strategic Allocation
+  </text>
+  
+  <!-- Data Sources -->
+  <rect x="920" y="120" width="220" height="420" rx="10" fill="#fff" stroke="#607d8b" stroke-width="2"/>
+  <text x="1030" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#607d8b">
+    🌐 Data Sources
+  </text>
+  
+  <!-- Yahoo Finance -->
+  <rect x="940" y="170" width="180" height="60" rx="5" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1"/>
+  <text x="1030" y="190" text-anchor="middle" font-size="11" font-weight="bold" fill="#3f51b5">
+    📈 Yahoo Finance API
+  </text>
+  <text x="1030" y="205" text-anchor="middle" font-size="9" fill="#666">Real-time Market Data</text>
+  <text x="1030" y="220" text-anchor="middle" font-size="9" fill="#666">Stock Prices • Financial Ratios</text>
+  
+  <!-- Google AI -->
+  <rect x="940" y="250" width="180" height="60" rx="5" fill="#e8f5e8" stroke="#4caf50" stroke-width="1"/>
+  <text x="1030" y="270" text-anchor="middle" font-size="11" font-weight="bold" fill="#4caf50">
+    🤖 Google AI Studio
+  </text>
+  <text x="1030" y="285" text-anchor="middle" font-size="9" fill="#666">Gemini 1.5 Flash Model</text>
+  <text x="1030" y="300" text-anchor="middle" font-size="9" fill="#666">Natural Language Processing</text>
+  
+  <!-- Market Data -->
+  <rect x="940" y="330" width="180" height="60" rx="5" fill="#fff3e0" stroke="#ff9800" stroke-width="1"/>
+  <text x="1030" y="350" text-anchor="middle" font-size="11" font-weight="bold" fill="#ff9800">
+    📊 Market Intelligence
+  </text>
+  <text x="1030" y="365" text-anchor="middle" font-size="9" fill="#666">Fundamental Analysis</text>
+  <text x="1030" y="380" text-anchor="middle" font-size="9" fill="#666">Technical Indicators</text>
+  
+  <!-- Alternative Data -->
+  <rect x="940" y="410" width="180" height="60" rx="5" fill="#fce4ec" stroke="#e91e63" stroke-width="1"/>
+  <text x="1030" y="430" text-anchor="middle" font-size="11" font-weight="bold" fill="#e91e63">
+    🔍 Alternative Data
+  </text>
+  <text x="1030" y="445" text-anchor="middle" font-size="9" fill="#666">ESG Scores • News Sentiment</text>
+  <text x="1030" y="460" text-anchor="middle" font-size="9" fill="#666">Economic Indicators</text>
+  
+  <!-- Arrows from agents to data -->
+  <path d="M 700 450 L 920 300" stroke="#0288d1" stroke-width="1" stroke-dasharray="5,5"/>
+  <path d="M 700 450 L 920 350" stroke="#c2185b" stroke-width="1" stroke-dasharray="5,5"/>
+  <path d="M 700 600 L 920 400" stroke="#ffa000" stroke-width="1" stroke-dasharray="5,5"/>
+  <path d="M 700 600 L 920 450" stroke="#689f38" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Technology Stack -->
+  <rect x="50" y="250" width="250" height="300" rx="10" fill="#fff" stroke="#795548" stroke-width="2"/>
+  <text x="175" y="275" text-anchor="middle" font-size="14" font-weight="bold" fill="#795548">
+    🛠️ Technology Stack
+  </text>
+  
+  <!-- Infrastructure -->
+  <rect x="70" y="295" width="210" height="50" rx="5" fill="#e3f2fd" stroke="#1976d2" stroke-width="1"/>
+  <text x="175" y="315" text-anchor="middle" font-size="11" font-weight="bold" fill="#1976d2">
+    ☁️ Google Cloud Platform
+  </text>
+  <text x="175" y="330" text-anchor="middle" font-size="9" fill="#666">Cloud Run • Container Registry • IAM</text>
+  
+  <!-- Framework -->
+  <rect x="70" y="355" width="210" height="50" rx="5" fill="#e8f5e8" stroke="#4caf50" stroke-width="1"/>
+  <text x="175" y="375" text-anchor="middle" font-size="11" font-weight="bold" fill="#4caf50">
+    🤖 Agent Development Kit
+  </text>
+  <text x="175" y="390" text-anchor="middle" font-size="9" fill="#666">Multi-Agent Orchestration • Tool Management</text>
+  
+  <!-- Development -->
+  <rect x="70" y="415" width="210" height="50" rx="5" fill="#fff8e1" stroke="#ffa000" stroke-width="1"/>
+  <text x="175" y="435" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffa000">
+    🐍 Python Ecosystem
+  </text>
+  <text x="175" y="450" text-anchor="middle" font-size="9" fill="#666">UV Package Manager • Pandas • YFinance</text>
+  
+  <!-- DevOps -->
+  <rect x="70" y="475" width="210" height="50" rx="5" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1"/>
+  <text x="175" y="495" text-anchor="middle" font-size="11" font-weight="bold" fill="#9c27b0">
+    🔧 DevOps & Deployment
+  </text>
+  <text x="175" y="510" text-anchor="middle" font-size="9" fill="#666">Docker • Cloud Build • GitHub Actions</text>
+  
+  <!-- Output Layer -->
+  <rect x="50" y="580" width="250" height="100" rx="10" fill="#e8f5e8" stroke="#4caf50" stroke-width="2"/>
+  <text x="175" y="605" text-anchor="middle" font-size="12" font-weight="bold" fill="#4caf50">
+    📊 Professional Output
+  </text>
+  <text x="175" y="625" text-anchor="middle" font-size="10" fill="#666">• Institutional-grade investment analysis</text>
+  <text x="175" y="640" text-anchor="middle" font-size="10" fill="#666">• Real-time market intelligence</text>
+  <text x="175" y="655" text-anchor="middle" font-size="10" fill="#666">• Multi-factor risk assessment</text>
+  <text x="175" y="670" text-anchor="middle" font-size="10" fill="#666">• Coordinated agent workflows</text>
+  
+  <!-- Key Features Box -->
+  <rect x="50" y="720" width="1100" height="60" rx="10" fill="#f8f9fa" stroke="#607d8b" stroke-width="1"/>
+  <text x="600" y="740" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">
+    🎯 Key Innovation: Adaptive Intelligence Scale
+  </text>
+  <text x="600" y="760" text-anchor="middle" font-size="10" fill="#666">
+    Same platform adapts from retail investor queries to institutional-grade analysis • Multi-agent coordination for complex financial workflows • Live market data integration • Production-ready cloud deployment
+  </text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>
