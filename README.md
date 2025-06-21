@@ -5,7 +5,9 @@
 A sophisticated multi-agent investment intelligence system that adapts from retail to institutional complexity, providing professional-grade financial analysis with live market data.
 
 ## 🚀 **Live Demo**
-- **Architecture:** [System Architecture Diagram](docs/architecture.svg)- **Architecture:** [System Architecture Diagram](docs/architecture.svg)- **Platform:** Run locally with `uv run adk web`
+- **Try it Live:** https://adaptive-trading-platform-258209898347.us-central1.run.app/dev-ui/
+- **Architecture:** [System Architecture Diagram](docs/architecture.svg)
+- **GitHub:** https://github.com/ashd1710/intelligent-investment-agents
 - **Video Demo:** [To be added]
 
 ## 📊 **Project Overview**
