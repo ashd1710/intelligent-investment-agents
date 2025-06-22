@@ -6,6 +6,7 @@ A sophisticated multi-agent investment intelligence system that adapts from reta
 
 ## 🚀 **Live Demo**
 - **Try it Live:** https://adaptive-trading-platform-258209898347.us-central1.run.app/dev-ui/
+- **🆘 First-Time Users:** Type `help` in the message box for comprehensive guidance
 - **Architecture:** [System Architecture Diagram](docs/architecture.svg)
 - **GitHub:** https://github.com/ashd1710/intelligent-investment-agents
 - **Video Demo:** [To be added]
@@ -112,6 +113,13 @@ uv install
 uv run adk web
 ```
 
+### **🆘 First-Time User Guide**
+**IMPORTANT:** When you first open the platform, type `help` in the message box to see comprehensive examples and instructions. The interface is minimal by design - all guidance is provided through the help system.
+
+**Quick Start Command:**
+help
+
+
 ## 🎯 **Sample Queries**
 
 - `"Find tech stocks under $200"`
@@ -119,6 +127,29 @@ uv run adk web
 - `"Dividend stocks with yield over 4%"`
 - `"Classify healthcare stocks by investment style"`
 - `"Analyze risk factors for AAPL, MSFT, NVDA"`
+
+## 🔧 **Troubleshooting**
+
+### **Interface Appears Minimal?**
+This is intentional! The ADK web interface is designed for simplicity. All user guidance is provided through the intelligent help system.
+
+**Solution:** Type `help` in the message box to access:
+- Comprehensive feature overview
+- Sample queries for each agent
+- Advanced usage examples
+- Platform capabilities guide
+
+### **Not Sure What to Ask?**
+Start with these commands:
+- `help` - Full platform guide
+- `what can you do` - Capability overview  
+- `find tech stocks under $200` - Simple example
+
+### **Need Examples?**
+Each agent responds to natural language. Try:
+- **Stock Screening:** "Show dividend stocks with yield over 4%"
+- **Style Analysis:** "Classify healthcare stocks by investment style"
+- **Risk Analysis:** "Analyze portfolio risk for AAPL MSFT NVDA"
 
 ## 🏆 **Competitive Advantages**
 
